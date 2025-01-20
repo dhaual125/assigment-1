@@ -12,6 +12,7 @@ function Form() {
     e.preventDefault();
     const data = { name, email, message };
     setUserData([...userData, data]);
+    
     console.log(userData);
     setName('');
     setEmail('');
