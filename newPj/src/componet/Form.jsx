@@ -11,8 +11,9 @@ function Form() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const data = { name, email, message };
-    setUserData([...userData, data]);
     
+    setUserData([...userData, data]);
+
     console.log(userData);
     setName('');
     setEmail('');
